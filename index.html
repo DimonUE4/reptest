@@ -1,0 +1,65 @@
+< !DOCTYPE html >
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humster Combat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="clicker-page" class="nav-link active">������</a></li>
+                <li><a href="#" id="profile-page" class="nav-link">�������</a></li>
+                <li><a href="#" id="airdrop-page" class="nav-link">�������</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- �������� � �������� -->
+        <section id="clicker-section" class="page">
+            <h1>Humster Combat</h1>
+            <div id="coin-box">
+                <img id="coin" src="https://image.shutterstock.com/image-vector/gold-coin-icon-260nw-1363662282.jpg" alt="Coin">
+            </div>
+            <h2>Баланс: <span id="coin-count">0</span></h2>
+
+            <h3>Кликайте и зарабатывайте:</h3>
+
+            <div class="upgrade-category">
+                <h4>bitcoin</h4>
+                <div id="crypto-upgrades"></div>
+            </div>
+
+            <div class="upgrade-category">
+                <h4>ethir</h4>
+                <div id="realestate-upgrades"></div>
+            </div>
+
+            <div class="upgrade-category">
+                <h4>kefir</h4>
+                <div id="startup-upgrades"></div>
+            </div>
+        </section>
+
+        <!-- �������� � �������� -->
+        <section id="profile-section" class="page hidden">
+            <h1>Биткоин</h1>
+            <p>���: <span id="user-name">�����</span></p>
+            <p>������: <span id="user-balance">0</span> �����</p>
+        </section>
+
+        <!-- �������� � ��������� -->
+        <section id="airdrop-section" class="page hidden">
+            <h1>Солана</h1>
+            <p>�������� ���������� ������ ������ 10 �����!</p>
+            <button id="airdrop-button">�������� �������</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
